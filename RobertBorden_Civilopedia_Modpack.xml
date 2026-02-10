@@ -1,0 +1,26 @@
+<!--  [ROBERT_BORDEN]_Civilopedia_ModPage  -->
+<!--  Author: Peterbro  -->
+
+<GameData>
+
+	<!--  ROBERT BORDEN CANADA MOD ENTRIES  -->
+	<CivilopediaPageGroups>
+		<Row SectionID="CONCEPTS"
+		     PageGroupId="ROBERT_BORDEN_CANADA_CONCEPTS"
+		     Name="LOC_PEDIA_CONCEPTS_PAGEGROUP_ROBERT_BORDEN_CANADA_MOD_NAME"
+		     Tooltip=""
+		     VisibleIfEmpty="false"
+		     SortIndex="0"/>
+	</CivilopediaPageGroups>
+
+	<CivilopediaPages>
+		<Row SectionId="CONCEPTS"
+		     PageId="ROBERT_BORDEN_CANADA_MOD_01"
+		     PageGroupId="ROBERT_BORDEN_CANADA_CONCEPTS"
+		     PageLayoutId="Simple"
+		     Name="LOC_PEDIA_CONCEPTS_PAGE_ROBERT_BORDEN_CANADA_MOD_01_TITLE"
+		     Tooltip=""
+		     SortIndex="0"/>
+	</CivilopediaPages>
+
+</GameData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>$name$</Name>
+    <Guid>5899b6db-7679-4c8c-a382-16fcbc873180</Guid>
+    <ProjectGuid>48b4c896-d737-4565-be63-5868ef666708</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This example demonstrates how to create a new building.</Teaser>
+    <Description>This example demonstrates how to create a new building.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[
+      <InGameActions>
+        <UpdateDatabase id="Gameplay">
+          <File>NewBuilding_Gameplay.xml</File>
+        </UpdateDatabase>
+        <UpdateIcons id="Icons">
+          <File>NewBuilding_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateText id="Text">
+          <File>NewBuilding_Text.xml</File>
+        </UpdateText>
+      </InGameActions>
+      ]]></InGameActionData>
+    <AssemblyName>LeaderRobertBorden</AssemblyName>
+    <RootNamespace>LeaderRobertBorden</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LeaderRobertBorden.Art.xml" />
+    <None Include="GettingStarted.html" />
+    <Content Include="LeaderRobertBorden_Gameplay.xml" />
+    <Content Include="LeaderRobertBorden_Icons.xml" />
+    <Content Include="LeaderRobertBorden_Text.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

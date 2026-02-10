@@ -1,0 +1,9 @@
+<GameData>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_CANADA"
+		     LeaderType="LEADER_ROBERT_BORDEN"
+		     CapitalName="LOC_CITY_NAME_OTTAWA"/>
+	</CivilizationLeaders>
+
+</GameData>

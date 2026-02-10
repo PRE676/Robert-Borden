@@ -1,0 +1,47 @@
+<GameData>
+<!--  MOD TEXT  -->
+<LocalizedText>
+<Row Tag="LOC_MOD_TEXT_ROBERT_BORDEN_CANADA_CIVILIZATION" Language="en_US">
+<Text>LEADER: Robert Borden [NEWLINE]LEADER AGENDA: Imperial War Cabinet [NEWLINE]-Likes Civilizations that honor their alliances and join wars alongside him. [NEWLINE]-Dislikes Civilizations that refuse to join wars or abandon their allies. [NEWLINE]LEADER ABILITY: Military Service Act [NEWLINE]-All units receive +5 [ICON_Strength] Combat Strength when in a Joint War. [NEWLINE]-Corps and Armies receive an additional +5 [ICON_Strength] Combat Strength when formed.</Text>
+</Row>
+</LocalizedText>
+
+<!--  CANADA ROBERT BORDEN TEXT  -->
+<LocalizedText>
+<Row Tag="LOC_LEADER_CANADA_ROBERT_BORDEN_NAME" Language="en_US">
+<Text>Robert Borden</Text>
+</Row>
+
+<Row Tag="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_NAME" Language="en_US">
+<Text>Military Service Act</Text>
+</Row>
+
+<Row Tag="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_DESCRIPTION" Language="en_US">
+<Text>All units receive +5 [ICON_Strength] Combat Strength when in a Joint War. Corps and Armies receive an additional +5 [ICON_Strength] Combat Strength when formed.</Text>
+</Row>
+
+<Row Tag="LOC_LOADING_INFO_LEADER_CANADA_ROBERT_BORDEN" Language="en_US">
+<Text>Prime Minister Borden, you led Canada through its greatest trial by fire. At Vimy Ridge, Passchendaele, and countless battlefields, Canadian soldiers proved their mettle and forged a national identity in sacrifice and valor. Though the path of conscription divided your nation, you believed it necessary to honor Canada's commitments to her allies. Through your persistence at the Imperial War Cabinet and the Paris Peace Conference, you secured Canada's place as an independent voice on the world stage. Now you must lead once more - will you build alliances that endure the test of war? Can you transform Canada from colony to nation through strength of arms and steadfast loyalty?</Text>
+</Row>
+</LocalizedText>
+
+<!--  CANADA ROBERT BORDEN AGENDA TEXT  -->
+<LocalizedText>
+<Row Tag="LOC_TRAIT_AGENDA_CANADA_ROBERT_BORDEN_IMPERIAL_WAR_CABINET_NAME" Language="en_US">
+<Text>Imperial War Cabinet</Text>
+</Row>
+
+<Row Tag="LOC_TRAIT_AGENDA_CANADA_ROBERT_BORDEN_IMPERIAL_WAR_CABINET_DESCRIPTION" Language="en_US">
+<Text>Likes civilizations that honor their alliances and join him in wars. Dislikes civilizations that refuse to join wars or abandon their allies.</Text>
+</Row>
+
+<Row Tag="LOC_DIPLO_MODIFIER_CANADA_ROBERT_BORDEN_IMPERIAL_WAR_CABINET_POSITIVE" Language="en_US">
+<Text>Robert Borden respects leaders who stand by their allies in times of war.</Text>
+</Row>
+
+<Row Tag="LOC_DIPLO_MODIFIER_CANADA_ROBERT_BORDEN_IMPERIAL_WAR_CABINET_NEGATIVE" Language="en_US">
+<Text>Robert Borden despises leaders who abandon their allies when they are needed most.</Text>
+</Row>
+</LocalizedText>
+
+</GameData>

@@ -1,0 +1,50 @@
+<GameData>
+<!--  CIVILOPEDIA ENTRIES   -->
+<LocalizedText>
+<!--  CANADA ROBERT BORDEN LEADER  -->
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_TITLE" Language="en_US">
+<Text>Robert Borden (Canada)</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_SUBTITLE" Language="en_US">
+<Text>8th Prime Minister of Canada (1911 AD - 1920 AD), Leader During World War I, Architect of the Military Service Act of 1917, Signatory of the Treaty of Versailles, Advocate for Canadian Autonomy, Member of the Imperial War Cabinet, Knight Grand Cross of the Order of St Michael and St George, Knight Grand Cross of the Order of the Bath, Companion of Honour, Recipient of Freedom of the City of London.</Text>
+</Row>
+
+<Row Tag="LOC_LEADER_CANADA_ROBERT_BORDEN_QUOTE" Language="en_US">
+<Text>It is the duty of the state to maintain its existence; and this duty includes the right to compel its citizens to render military service in its defense.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+<Text>Robert Laird Borden was born in 1854 AD in Grand-Pré, Nova Scotia, to a farming family of Loyalist descent. After teaching school as a young man, he studied law and was called to the bar in 1878 AD. His legal career flourished in Halifax, where he became one of the most prominent lawyers in the Maritimes. Despite his success in law, Borden was drawn to politics, entering the House of Commons in 1896 AD as a Conservative member for Halifax. He became leader of the Conservative Party in 1901 AD, though it would take a decade before he could lead his party to victory.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+<Text>Borden became Prime Minister in 1911 AD after defeating Wilfrid Laurier's Liberals on the issue of reciprocity with the United States. His early years in office were marked by domestic reforms and the Naval Aid Bill, which proposed financial support for the British Royal Navy. However, his tenure would be defined by events far beyond Canada's borders. When Britain declared war on Germany in August 1914 AD, Canada was automatically at war as part of the British Empire. What many expected to be a short conflict would transform into the most devastating war the world had yet seen.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+<Text>Borden initially relied on voluntary recruitment to raise troops for the Canadian Expeditionary Force. The response was enthusiastic at first, with 33,000 men enlisting in the first month alone. Canadian forces distinguished themselves at battles such as Ypres, the Somme, and particularly at Vimy Ridge in April 1917 AD, where all four divisions of the Canadian Corps fought together for the first time. The victory at Vimy became a defining moment in Canadian national identity. However, as casualties mounted and voluntary enlistment declined, Borden faced a crisis: how to maintain Canada's contribution to the war effort.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+<Text>In May 1917 AD, after visiting Canadian troops in Europe and witnessing the horrific casualties firsthand, Borden became convinced that conscription was necessary. The Military Service Act, passed in August 1917 AD, made military service compulsory for men aged 20 to 45. The decision was deeply controversial and bitterly divided the nation, particularly alienating French Canadians who saw the war as Britain's fight. To secure the Act's passage, Borden formed a Union Government with pro-conscription Liberals, winning the December 1917 election through the Wartime Elections Act, which extended the vote to female relatives of soldiers while disenfranchising many recent immigrants.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_5" Language="en_US">
+<Text>Beyond military matters, Borden fought to establish Canada as a nation in its own right rather than merely a colony. He demanded separate Canadian representation at the Imperial War Cabinet meetings in London and insisted that Canada sign the Treaty of Versailles independently. His persistence led to Canada receiving its own seat at the Paris Peace Conference and membership in the League of Nations - crucial steps toward full sovereignty. The Statute of Westminster in 1931 AD, which granted legislative independence to dominions, was built on foundations Borden had laid.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_HISTORY_PARA_6" Language="en_US">
+<Text>By 1920 AD, exhausted by the strains of wartime leadership, Borden retired from politics. He remained active in business and public service until his death in 1937 AD. His legacy is complex: he led Canada through its bloodiest conflict, with over 60,000 Canadians killed and 170,000 wounded. The conscription crisis left wounds in Canadian society that took generations to heal. Yet he also transformed Canada from a colony into a nation with its own voice on the world stage. History remembers him as a man who made painful decisions in terrible times, believing them necessary for his country's survival and future independence.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_CAPSULE_BODY" Language="en_US">
+<Text>Robert Borden leads a Canada focused on building powerful military forces and maintaining strong alliances in times of war.</Text>
+</Row>
+
+<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CANADA_ROBERT_BORDEN_CHAPTER_DETAILED_BODY" Language="en_US">
+<Text>Canada thrives in Snow and Tundra terrain and can generate [ICON_Tourism] Tourism through Ice Hockey Rinks and Mounties. Canada's diplomatic abilities help influence the World Congress. Robert Borden excels when fighting alongside allies, with all units receiving combat bonuses during Joint Wars. He should prioritize forming Corps and Armies to maximize his military strength, making him particularly effective in cooperative military campaigns and world wars.</Text>
+</Row>
+
+</LocalizedText>
+</GameData>

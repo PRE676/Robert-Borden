@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!--  CANADA | ROBERT BORDEN CONFIG -->
+<Players>
+<Row>
+<!--  CANADA SELECTABLE  -->
+<Domain>Players:Expansion2_Players</Domain>
+<CivilizationType>CIVILIZATION_CANADA</CivilizationType>
+<LeaderType>LEADER_CANADA_ROBERT_BORDEN</LeaderType>
+<!--  CANADA CIVILIZATION  -->
+<CivilizationName>LOC_CIVILIZATION_CANADA_NAME</CivilizationName>
+<CivilizationIcon>ICON_CIVILIZATION_CANADA</CivilizationIcon>
+<!--  CANADA ROBERT BORDEN LEADER  -->
+<LeaderName>LOC_LEADER_CANADA_ROBERT_BORDEN_NAME</LeaderName>
+<LeaderIcon>ICON_LEADER_CANADA_ROBERT_BORDEN</LeaderIcon>
+<!--  CANADA TRAIT  -->
+<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME</CivilizationAbilityName>
+<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION</CivilizationAbilityDescription>
+<CivilizationAbilityIcon>ICON_CIVILIZATION_CANADA</CivilizationAbilityIcon>
+<!--  CANADA ROBERT BORDEN TRAIT  -->
+<LeaderAbilityName>LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_NAME</LeaderAbilityName>
+<LeaderAbilityDescription>LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_DESCRIPTION</LeaderAbilityDescription>
+<LeaderAbilityIcon>ICON_LEADER_CANADA_ROBERT_BORDEN</LeaderAbilityIcon>
+<!--  CANADA ROBERT BORDEN ART  -->
+<Portrait>LEADER_CANADA_ROBERT_BORDEN_NEUTRAL</Portrait>
+<PortraitBackground>LEADER_CANADA_ROBERT_BORDEN_BACKGROUND</PortraitBackground>
+</Row>
+</Players>
+<PlayerItems>
+<Row>
+<!--  CANADA SELECTABLE  -->
+<Domain>Players:Expansion2_Players</Domain>
+<CivilizationType>CIVILIZATION_CANADA</CivilizationType>
+<LeaderType>LEADER_CANADA_ROBERT_BORDEN</LeaderType>
+<!--  CANADA MOUNTIE UNIT  -->
+<Type>UNIT_CANADA_MOUNTIE</Type>
+<Name>LOC_UNIT_CANADA_MOUNTIE_NAME</Name>
+<Description>LOC_UNIT_CANADA_MOUNTIE_DESCRIPTION</Description>
+<!--  CANADA MOUNTIE ICON  -->
+<Icon>ICON_UNIT_CANADA_MOUNTIE</Icon>
+<SortIndex>10</SortIndex>
+</Row>
+<Row>
+<!--  CANADA SELECTABLE  -->
+<Domain>Players:Expansion2_Players</Domain>
+<CivilizationType>CIVILIZATION_CANADA</CivilizationType>
+<LeaderType>LEADER_CANADA_ROBERT_BORDEN</LeaderType>
+<!--  CANADA ICE HOCKEY RINK IMPROVEMENT  -->
+<Type>IMPROVEMENT_ICE_HOCKEY_RINK</Type>
+<Name>LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME</Name>
+<Description>LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION</Description>
+<!--  CANADA ICE HOCKEY RINK ICON  -->
+<Icon>ICON_IMPROVEMENT_ICE_HOCKEY_RINK</Icon>
+<SortIndex>20</SortIndex>
+</Row>
+</PlayerItems>
+<!--  FIRAXIS TSL  -->
+<MapLeaders>
+<!--  STANDARD EARTH  -->
+<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_CANADA_ROBERT_BORDEN"/>
+<!--  HUGE EARTH  -->
+<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLWorldMapHuge_XP2.Civ6Map" LeaderType="LEADER_CANADA_ROBERT_BORDEN"/>
+</MapLeaders>
+<MapStartPositions>
+<!--  STANDARD EARTH  -->
+<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3787" Type="LEADER" Value="LEADER_CANADA_ROBERT_BORDEN"/>
+<!--  HUGE EARTH  -->
+<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLWorldMapHuge_XP2.Civ6Map" Plot="6125" Type="LEADER" Value="LEADER_CANADA_ROBERT_BORDEN"/>
+</MapStartPositions>
+</GameData>

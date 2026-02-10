@@ -1,0 +1,178 @@
+<GameData>
+<!--  DIPLO TEXT  -->
+<LocalizedText>
+
+<!--  FIRST MEET  -->
+<!--  First AI line  -->
+<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I am Robert Borden, Prime Minister of the Dominion of Canada. We stand ready to do our duty on the world stage.</Text>
+</Row>
+
+<!--  AI Invitation to Visit nearby City  -->
+<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Come, let me show you our Parliament. We are building a nation here, not merely a colony.</Text>
+</Row>
+
+<!--  AI Accepts Human Invitation  -->
+<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>A capital tour would be most welcome. I accept your gracious invitation.</Text>
+</Row>
+
+<!--  AI Invitation to Exchange Capital Information  -->
+<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Let us exchange information about our capitals. Knowledge of one's neighbors is the beginning of diplomacy.</Text>
+</Row>
+
+<!--  GREETINGS  -->
+<!--  Greetings  -->
+<Row Tag="LOC_DIPLO_GREETING_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Good day to you.</Text>
+</Row>
+
+<!--  DELEGATION  -->
+<!--  AI Accepts  -->
+<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Your delegation will be received with all the hospitality Canada can offer. We welcome honest discourse between nations.</Text>
+</Row>
+
+<!--  AI Rejects  -->
+<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I must decline. The current circumstances do not permit such formalities.</Text>
+</Row>
+
+<!--  AI Requests  -->
+<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I am sending a delegation to your court. They carry with them Canadian maple syrup and a genuine desire for friendship.</Text>
+</Row>
+
+<!--  OPEN BORDERS  -->
+<!--  AI Accepts from Human  -->
+<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Canada's borders are open to those who respect our sovereignty. Your troops may pass.</Text>
+</Row>
+
+<!--  AI Rejects from Human  -->
+<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I cannot permit foreign troops upon Canadian soil at this time. Surely you understand.</Text>
+</Row>
+
+<!--  AI Requests from Human  -->
+<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Would you grant passage to Canadian forces? We seek only to position ourselves strategically in these uncertain times.</Text>
+</Row>
+
+<!--  DECLARE FRIENDSHIP  -->
+<!--  AI Accepts from Human  -->
+<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I gladly accept your hand in friendship. Together, nations of goodwill can accomplish what none can alone.</Text>
+</Row>
+
+<!--  AI Rejects from Human  -->
+<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Your actions speak louder than your words. I must decline this offer of friendship.</Text>
+</Row>
+
+<!--  AI Requests Friendship from Human  -->
+<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Let us formalize the bonds between our peoples. Will you declare friendship with Canada?</Text>
+</Row>
+
+<!--  Human Accepts AI Requests, AI Responds  -->
+<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Excellent. A leader who honors their commitments is a leader worth knowing.</Text>
+</Row>
+
+<!--  Human Rejects AI Requests, AI Responds  -->
+<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>A disappointing decision, but one I must respect. For now.</Text>
+</Row>
+
+<!--  ALLIANCE  -->
+<!--  AI Requests an alliance from human  -->
+<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>It is the duty of the state to maintain its existence, and this duty is best fulfilled through strong alliances. Will you stand with Canada?</Text>
+</Row>
+
+<!--  KUDOS AND WARNINGS  -->
+<!--  AI Kudos  -->
+<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>You honor your alliances and stand by your word. This is the mark of a true statesman. Well done!</Text>
+</Row>
+
+<!--  AI Warnings  -->
+<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>You abandon your allies when they need you most. This is cowardice, plain and simple. Do better.</Text>
+</Row>
+
+<!--  AI Warns Player for Border Troops  -->
+<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Your troops mass at our borders. If you seek war, we will give it to you. If you seek peace, withdraw them.</Text>
+</Row>
+
+<!--  TRADE  -->
+<!--  AI Accepts Deal  -->
+<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>A fair arrangement. Canada accepts.</Text>
+</Row>
+
+<!--  AI Rejects Deal  -->
+<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>This proposal does not serve Canadian interests. I must decline.</Text>
+</Row>
+
+<!--  DENOUNCE  -->
+<!--  From Human  -->
+<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Denounce me if you will. Canada has faced far greater challenges than your empty rhetoric.</Text>
+</Row>
+
+<!--  From AI  -->
+<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>You have proven yourself unworthy of trust or respect. The world must know of your duplicity. (Denounces You)</Text>
+</Row>
+
+<!--  Rationale  -->
+<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_CANADA_ROBERT_BORDEN" Language="en_US">
+<Text>(You have abandoned your allies and refused to honor your commitments.)</Text>
+</Row>
+
+<!--  DECLARE WAR  -->
+<!--  Human Declares War  -->
+<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Then war it shall be. Canada will do its duty, no matter the cost.</Text>
+</Row>
+
+<!--  AI Declares War  -->
+<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>I did not seek this conflict, but I will not shrink from it. The Canadian Corps will show you what duty and sacrifice truly mean.</Text>
+</Row>
+
+<!--  MAKE PEACE  -->
+<!--  AI Accepts from Human  -->
+<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Enough blood has been spilled. Let us end this conflict and rebuild what has been destroyed.</Text>
+</Row>
+
+<!--  AI Refuses Human  -->
+<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>No. We will see this through to the bitter end.</Text>
+</Row>
+
+<!--  AI Requests from Human  -->
+<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>This war serves neither of us. Let us negotiate terms and spare our peoples further suffering.</Text>
+</Row>
+
+<!--  DEFEAT  -->
+<!--  AI is Defeated  -->
+<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>Canada has fallen, but the principles for which we fought will endure. History will judge which of us was right.</Text>
+</Row>
+
+<!--  Human is Defeated (Visible in Hot Seat)  -->
+<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CANADA_ROBERT_BORDEN_ANY" Language="en_US">
+<Text>You fought with courage, if not wisdom. Let this be a lesson in the importance of honoring one's alliances.</Text>
+</Row>
+
+</LocalizedText>
+</GameData>

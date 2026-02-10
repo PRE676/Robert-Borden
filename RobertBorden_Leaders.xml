@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  [ROBERT_BORDEN]_Leaders.xml
+  Creates LEADER_CANADA_ROBERT_BORDEN using Canada’s existing kit + a new leader trait:
+  "Military Service Act"
+-->
+<GameData>
+
+  <!-- ========================================================= -->
+  <!-- Types                                                     -->
+  <!-- ========================================================= -->
+  <Types>
+    <Row Type="LEADER_CANADA_ROBERT_BORDEN" Kind="KIND_LEADER"/>
+    <Row Type="TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT" Kind="KIND_TRAIT"/>
+
+    <!-- (Optional but recommended) Agenda type entry for custom leaders that reuse agendas -->
+    <Row Type="AGENDA_CANADIAN_EXPEDITIONARY" Kind="KIND_AGENDA"/>
+  </Types>
+
+  <!-- ========================================================= -->
+  <!-- Leaders                                                   -->
+  <!-- ========================================================= -->
+  <Leaders>
+    <Row LeaderType="LEADER_CANADA_ROBERT_BORDEN"
+         Name="LOC_LEADER_CANADA_ROBERT_BORDEN_NAME"
+         InheritFrom="LEADER_DEFAULT"
+         SceneLayers="4"
+         Sex="Male"/>
+  </Leaders>
+
+  <!-- ========================================================= -->
+  <!-- Leader Traits (THIS is where Canada kit gets attached)     -->
+  <!-- ========================================================= -->
+  <LeaderTraits>
+    <!-- Canada Leader Trait: The Last Best West (tundra/snow stuff you noticed) -->
+    <Row LeaderType="LEADER_CANADA_ROBERT_BORDEN" TraitType="TRAIT_LEADER_LAST_BEST_WEST"/>
+
+    <!-- Reuse Laurier’s Agenda -->
+    <Row LeaderType="LEADER_CANADA_ROBERT_BORDEN" TraitType="TRAIT_AGENDA_CANADIAN_EXPEDITIONARY"/>
+
+    <!-- Borden Unique Leader Ability -->
+    <Row LeaderType="LEADER_CANADA_ROBERT_BORDEN" TraitType="TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT"/>
+  </LeaderTraits>
+
+  <!-- ========================================================= -->
+  <!-- Traits                                                    -->
+  <!-- ========================================================= -->
+  <Traits>
+    <Row TraitType="TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT"
+         Name="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_NAME"
+         Description="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_DESCRIPTION"/>
+  </Traits>
+
+  <!-- ========================================================= -->
+  <!-- Trait Modifiers                                           -->
+  <!-- ========================================================= -->
+  <TraitModifiers>
+    <!-- +5 CS to Corps & Armies (always) -->
+    <Row TraitType="TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT" ModifierId="BORDEN_CORPS_ARMY_COMBAT_STRENGTH"/>
+
+    <!-- +5 CS to ALL units during emergencies -->
+    <Row TraitType="TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT" ModifierId="BORDEN_EMERGENCY_ALL_UNITS_COMBAT_STRENGTH"/>
+  </TraitModifiers>
+
+  <!-- ========================================================= -->
+  <!-- Modifiers                                                 -->
+  <!-- ========================================================= -->
+  <Modifiers>
+    <!-- Corps/Army always-on -->
+    <Row ModifierId="BORDEN_CORPS_ARMY_COMBAT_STRENGTH"
+         ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH"
+         SubjectRequirementSetId="BORDEN_UNIT_IS_CORPS_OR_ARMY_REQSET"/>
+
+    <!-- Emergency-only all units -->
+    <Row ModifierId="BORDEN_EMERGENCY_ALL_UNITS_COMBAT_STRENGTH"
+         ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH"
+         SubjectRequirementSetId="BORDEN_PLAYER_IN_ANY_EMERGENCY_REQSET"/>
+  </Modifiers>
+
+  <!-- ========================================================= -->
+  <!-- Modifier Arguments                                        -->
+  <!-- ========================================================= -->
+  <ModifierArguments>
+    <Row ModifierId="BORDEN_CORPS_ARMY_COMBAT_STRENGTH" Name="Amount" Value="5"/>
+    <Row ModifierId="BORDEN_EMERGENCY_ALL_UNITS_COMBAT_STRENGTH" Name="Amount" Value="5"/>
+  </ModifierArguments>
+
+  <!-- ========================================================= -->
+  <!-- Requirements / Requirement Sets                           -->
+  <!-- ========================================================= -->
+
+  <!-- Corps / Army requirement (this part is solid) -->
+  <Requirements>
+    <Row RequirementId="BORDEN_REQUIRES_UNIT_IS_CORPS" RequirementType="REQUIREMENT_UNIT_FORMATION_CLASS_MATCHES"/>
+    <Row RequirementId="BORDEN_REQUIRES_UNIT_IS_ARMY"  RequirementType="REQUIREMENT_UNIT_FORMATION_CLASS_MATCHES"/>
+  </Requirements>
+
+  <RequirementArguments>
+    <Row RequirementId="BORDEN_REQUIRES_UNIT_IS_CORPS" Name="FormationClass" Value="FORMATION_CLASS_CORPS"/>
+    <Row RequirementId="BORDEN_REQUIRES_UNIT_IS_ARMY"  Name="FormationClass" Value="FORMATION_CLASS_ARMY"/>
+  </RequirementArguments>
+
+  <RequirementSets>
+    <Row RequirementSetId="BORDEN_UNIT_IS_CORPS_OR_ARMY_REQSET" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+  </RequirementSets>
+
+  <RequirementSetRequirements>
+    <Row RequirementSetId="BORDEN_UNIT_IS_CORPS_OR_ARMY_REQSET" RequirementId="BORDEN_REQUIRES_UNIT_IS_CORPS"/>
+    <Row RequirementSetId="BORDEN_UNIT_IS_CORPS_OR_ARMY_REQSET" RequirementId="BORDEN_REQUIRES_UNIT_IS_ARMY"/>
+  </RequirementSetRequirements>
+
+  <!-- Emergency requirement set (swap this to the working emergency check you already had) -->
+  <!--
+    Replace the requirement(s) below with the exact RequirementId / RequirementType you already had working
+    for “player is currently participating in an emergency”.
+  -->
+  <Requirements>
+    <Row RequirementId="BORDEN_REQUIRES_PLAYER_IN_ANY_EMERGENCY" RequirementType="REQUIREMENT_PLAYER_IS_IN_EMERGENCY"/>
+  </Requirements>
+
+  <RequirementSets>
+    <Row RequirementSetId="BORDEN_PLAYER_IN_ANY_EMERGENCY_REQSET" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+  </RequirementSets>
+
+  <RequirementSetRequirements>
+    <Row RequirementSetId="BORDEN_PLAYER_IN_ANY_EMERGENCY_REQSET" RequirementId="BORDEN_REQUIRES_PLAYER_IN_ANY_EMERGENCY"/>
+  </RequirementSetRequirements>
+
+
+  <!-- ========================================================= -->
+  <!-- Localization (kept IN the same file, like you asked)      -->
+  <!-- ========================================================= -->
+  <LocalizedText>
+    <Row Tag="LOC_LEADER_CANADA_ROBERT_BORDEN_NAME" Language="en_US">
+      <Text>Robert Borden</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_NAME" Language="en_US">
+      <Text>Military Service Act</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_CANADA_ROBERT_BORDEN_MILITARY_SERVICE_ACT_DESCRIPTION" Language="en_US">
+      <Text>Gain +5 Combat Strength to all units during Emergencies. Corps and Armies gain +5 Combat Strength.</Text>
+    </Row>
+  </LocalizedText>
+
+</GameData>
